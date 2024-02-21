@@ -50,7 +50,7 @@ function Body() {
                       <div className="bg-[#409BEE] opacity-50 h-10 w-full overflow-hidden"></div>
 
                       <div className="bg-[#409BEE] h-20 w-14 mt-[-12px]    flex items-center justify-center flex-col">
-                        <Image src={arrow} width={14} height={14} />
+                        <Image alt=""  src={arrow} width={14} height={14} />
                         <span className="text-1xl font-light">70%</span>
                       </div>
                     </div>
@@ -59,14 +59,14 @@ function Body() {
                 <div className="bg-[#1B2C4F] flex p-2 mt-5 flex-col rounded-lg">
                   <div className="flex items-center justify-center">
                     <div className="bg-[#409BEE] rounded-full p-2 w-8 mr-5">
-                      <Image src={Arr} width={20} height={20} />
+                      <Image alt=""  src={Arr} width={20} height={20} />
                     </div>
                     <span>Upcoming Events</span>
                   </div>
                   <div className="flex items-start mt-2 gap-x-3 rounded-lg justify-between">
                     <div className="border-2 rounded-full p-2 w-16">
                       <div className="bg-[#AAEFEB] rounded-full p-2">
-                        <Image src={image} width={30} height={30} />
+                        <Image alt=""  src={image} width={30} height={30} />
                       </div>
                     </div>
                     <div>
@@ -74,7 +74,7 @@ function Body() {
                         Aliza Shah
                       </span>
                       <span className="flex items-center justify-center">
-                        <Image src={alarm} width={20} height={20} />
+                        <Image alt=""  src={alarm} width={20} height={20} />
                         <span>08:00 09:00am</span>
                       </span>
                       <span className="flex  font-extralight text-1xl items-center justify-center p-1 rounded-lg bg-[#2C3A58]">
@@ -96,14 +96,14 @@ function Body() {
                   <div className="p-2 border-blue-300 border-2 rounded-full">
                     <select
                       className=" bg-transparent outline-none"
-                      value={"weekly"}
+                      defaultValue={"weekly"}
                     >
                       <option value="weekly">weekly</option>
                     </select>
                   </div>
                 </div>
                 <div className=" p-2 flex items-center justify-center py-10">
-                  <Image src={wave} width={200} height={100} />
+                  <Image alt=""  src={wave} width={200} height={100} />
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ function Body() {
                 <div className="flex items-center mb-5">
                   <span className="text-gray-200 mr-2">08:00am --</span>
                   <Block
-                    background={"F5E5E5"}
+                    color={"F5E5E5"}
                     image={profile1}
                     name={"Mark Jaxon"}
                     time={"08:00-09:00am"}
@@ -131,7 +131,7 @@ function Body() {
                 <div className="flex items-center mb-5">
                   <span className="text-gray-200 mr-2">09:00am -------</span>
                   <Block
-                    background={"F5E5E5"}
+                    color={"E5F5E6"}
                     image={profile2}
                     name={"Maira Khan"}
                     time={"09:00-10:00am"}
@@ -140,7 +140,7 @@ function Body() {
                 <div className="flex items-center mb-5">
                   <span className="text-gray-200 mr-2">10:00am </span>
                   <Block
-                    background={"F5E5E5"}
+                    color={"C9F3EC"}
                     image={profile3}
                     name={"Brick Zon"}
                     time={"10:00-11:00am"}
@@ -161,7 +161,7 @@ function Body() {
                 <div className="flex items-center mb-5">
                   <span className="text-gray-200 mr-2">12:00am -----</span>
                   <Block
-                    background={"F5E5E5"}
+                    color={"C1E2F4"}
                     image={profile4}
                     name={"Alexa Max"}
                     time={"12:00-01:00pm"}
@@ -187,23 +187,23 @@ function Body() {
                       </span>
                       <br />
                       <span className="flex items-center justify-center">
-                        <Image src={alarm} width={20} height={20} />
+                        <Image alt=""  src={alarm} width={20} height={20} />
                         <span>05:00 - 06:00</span>
                       </span>
                       <br />
                       <br />
                       <span className="bg-[#2C3A58] rounded-full flex items-center justify-center gap-2 p-2">
-                        <Image src={images} width={100} />
+                        <Image alt=""  src={images} width={100} />
                       </span>
                     </div>
                     <div className="ml-10">
                       <div className="flex items-center justify-center p-3 rounded-lg bg-[#409BEE]">
-                        <Image src={noti} width={20} height={20} />
+                        <Image alt=""  src={noti} width={20} height={20} />
                       </div>
                       <br />
                       <div className="text-black font-bold">
                         <div className="bg-[#409BEE] px-2 rounded-lg ">
-                          <Image
+                          <Image alt="" 
                             src={Arr}
                             width={30}
                             height={30}
@@ -226,7 +226,7 @@ function Body() {
                       <br />
                       <br />
                       <span className="bg-[#2C3A58] rounded-full flex items-center justify-center gap-2 p-2">
-                        82% <Image src={arrow} width={20} height={20} />
+                        82% <Image alt=""  src={arrow} width={20} height={20} />
                       </span>
                     </div>
                     <div className="ml-10">
@@ -237,7 +237,7 @@ function Body() {
                           className={`bg-${chart0} object-cover`}
                           style={{ width: "50px", height: "50px" }}
                         >
-                          <Image src={chart} width={50} height={50} />
+                          <Image alt=""  src={chart} width={50} height={50} />
                         </div>
                       </div>
                     </div>
@@ -251,7 +251,7 @@ function Body() {
           {/* Profile Section */}
           <div className="p-5 w-[10rem] border-2 rounded-full border-blue-400">
             <div className=" bg-blue-200 rounded-full flex items-center justify-center shadow-md">
-              <Image
+              <Image alt="" 
                 src={img}
                 width={100}
                 className="flex items-center justify-center"
@@ -263,18 +263,16 @@ function Body() {
             <span className="text-2xl">ALIAM COLTER</span>
             <span className="text-1xl font-extralight">Physician</span>
           </div>
-          <br />
-          <div className="flex items-center gap-5 justify-center p-5 bg-[#1C2A4E] rounded-full">
+          <div className="flex mt-5 items-center gap-5 justify-center p-5 bg-[#1C2A4E] rounded-full">
             <span className="text-1xl">Active Patients</span>
             <span className="bg-[#2C3A58] rounded-full flex items-center justify-center gap-2 p-2">
-              <Image src={images} width={100} />
+              <Image alt=""  src={images} width={100} />
             </span>
           </div>
-          <br />
-          <div className="flex flex-col items-center gap-5 justify-center p-5 bg-[#1C2A4E] rounded-xl  overflow-hidden">
+          <div className="flex flex-col items-center gap-5 justify-center p-5 bg-[#1C2A4E] rounded-xl mt-5  overflow-hidden">
             <div className="flex items-center justify-center">
               <div className="flex items-center w-[2rem] mr-5 justify-center p-2 rounded-full bg-yellow-200">
-                <Image src={profile4} width={20} height={20} className="" />
+                <Image alt=""  src={profile4} width={20} height={20} className="" />
               </div>
               <span className="mr-5">
                 <span>Alexa Max</span>
@@ -282,7 +280,7 @@ function Body() {
                 <span>Active 5 Min Ago</span>
               </span>
               <div className="flex items-center justify-center rounded-full bg-[#2C3A58] p-2">
-                <Image src={call} width={20} height={20} className="" />
+                <Image alt=""  src={call} width={20} height={20} className="" />
               </div>
             </div>
             <div className="flex items-center justify-center border-t-2 text-black">
@@ -293,7 +291,7 @@ function Body() {
                 </span>
                 <span className="flex items-center justify-center mt-2">
                   <div className="flex items-center w-[3rem] mr-5 justify-center p-2 rounded-full bg-yellow-200">
-                    <Image src={profile4} width={30} height={30} className="" />
+                    <Image alt=""  src={profile4} width={30} height={30} className="" />
                   </div>
                   <span className="flex rounded-full px-10 bg-[#F1F1F1]">
                     I got knee jerk. What should i do right now ?
@@ -304,7 +302,7 @@ function Body() {
                     Hi, Alexa.
                   </span>
                   <div className="flex items-center w-[3rem] mr-5 justify-center p-2 rounded-full bg-[#BDD8F0]">
-                    <Image src={profile} width={30} height={30} className="" />
+                    <Image alt=""  src={profile} width={30} height={30} className="" />
                   </div>
                 </span>
                 <span className="flex items-center justify-center rounded-full p-2 bg-[#BDD8F0] mt-5">
@@ -313,14 +311,14 @@ function Body() {
               </span>
             </div>
             <div className="flex items-center justify-center gap-x-10 px-5 py-3 rounded-full bg-[#2C3A58]">
-              <Image src={mic} width={20} height={20} />
+              <Image alt=""  src={mic} width={20} height={20} />
               <input
                 type="text"
                 placeholder="Type your text..."
                 className="bg-transparent outline-none"
               />
               <div className="bg-[#409BEE] rounded-3xl px-5 py-3">
-                <Image src={send} width={20} height={20} />
+                <Image alt=""  src={send} width={20} height={20} />
               </div>
             </div>
           </div>
